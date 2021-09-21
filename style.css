@@ -1,0 +1,418 @@
+button {
+	font-size: 60px;
+	background-color: white;
+	border: 5px solid black;
+	cursor: pointer;
+  	outline: none;
+  	color: white;
+  	background-color: yellowgreen;
+  	border: none;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+}
+
+header {
+	background-color: darkgreen ;
+	border-top: 5px solid blueviolet;
+	border-bottom: 5px solid blueviolet;
+	border-top: 5px solid yellowgreen;
+	border-bottom: 5px solid yellowgreen;
+}
+
+.hc {
+	margin-right: 1115px;
+	margin-left: 20px;
+	color: yellowgreen;
+	border: 2px solid #04AA6D;
+	background-color: #04AA6D;
+	color: greenyellow;
+	border-radius: 5px;
+}
+
+.nice {
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 1150px;
+	width: 150px;
+}
+
+
+.br {
+	position: absolute;
+	margin-left: 238px;
+	margin-top: -58px;
+	border: 2px solid yellowgreen;
+	border-radius: 5px;
+	background-color: yellowgreen;
+	color: greenyellow;
+}
+p {
+	font-weight: 100;
+}
+
+
+body {
+	animation: body 0.5s reverse;
+}
+
+@keyframes body {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0, 0);
+  }
+}
+
+.ha {
+	font-size: 30px;
+	border-radius: 15px;
+	border: 5px solid greenyellow;
+	padding-left: 130px;
+	padding-right: 100px;
+	background-color: greenyellow;
+	margin-left: 20px;
+	margin-right:805px;
+	position: absolute;
+	visibility: hidden;
+}
+
+.h1 {
+	font-size: 30px;
+	border-radius: 15px;
+	border: 5px solid greenyellow;
+	background-color: greenyellow;
+	padding-left: 150px;
+	padding-right: 150px;
+	margin-left:430px;
+	margin-right:395px;
+	position: absolute;
+	visibility: hidden;
+}
+
+.menu {
+	font-size: 60px;
+	margin-bottom: 10px;
+	padding-left: 65px;
+	padding-right: 65px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top: 0px;
+}
+
+@keyframes mynewmove {
+  0% {
+    transform: scale(1, 1);
+  }
+  100% {
+    transform: scale(0, 0);
+  }
+}
+
+.menu1 {
+	font-size: 60px;
+	margin-bottom: 10px;
+	padding-left: 265px;
+	padding-right: 65px;
+	border-top: 0px;
+	margin-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.menu2 {
+	font-size: 60px;
+	margin-bottom: 10px;
+	padding-left: 75.5px;
+	padding-right: 265px;
+	border-top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+img {
+	margin-left: 80px;
+}
+
+.tudo-pizza {
+	padding: 5px;
+	padding-bottom: 0px;
+	padding-left: 15px;
+}
+
+
+.pizza {
+	position: absolute;
+	display: flex;
+}
+
+.pizza1 {
+	position: absolute;
+	display: flex;
+}
+
+.pizza2 {
+	position: absolute;
+	display: flex;
+}
+
+.sabor {
+	display: flex;
+	flex-direction: column;
+	margin-left: 860px;
+	margin-top: 10px;
+	padding-right: 46px;
+	padding-left: 50px;
+	margin-bottom: 40px;
+	padding: 15px 25px;
+  	text-align: center;
+  	cursor: pointer;
+  	outline: none;
+  	color: #fff;
+  	background-color: #04AA6D;
+  	border: none;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+}
+
+.sabor3 {
+	display: flex;
+	flex-direction: column;
+	margin-left: 860px;
+	margin-top: 10px;
+	padding-right: 106px;
+	padding-left: 90px;
+	margin-bottom: 40px;
+	padding: 15px 25px;
+  	text-align: center;
+  	cursor: pointer;
+  	outline: none;
+  	color: #fff;
+  	background-color: #04AA6D;
+  	border: none;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+}
+
+.sabor2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.sabor3:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.sabor:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+button:active {
+  background-color: greenyellow;
+  box-shadow: 0 5px #999;
+  transform: translateY(4px);
+}
+
+.sabor2 {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-left: 860px;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: 40px;
+	padding: 15px 25px;
+	text-align: center;
+	cursor: pointer;
+	outline: none;
+	color: #fff;
+	background-color: #04AA6D;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+}
+
+
+.aa {
+
+	margin-top: 30px;
+}
+
+.butao {	
+	display: flex;
+	position: absolute;
+	width: 250px;
+	cursor: pointer;
+	outline: none;
+	border: 5px solid black;
+	border-radius: 15px;
+	padding: 2px;
+	background-color: white;
+	cursor: pointer;
+  	outline: none;
+  	color: white;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+  	visibility: hidden;
+}
+
+.butao:active {
+  box-shadow: 0 5px #999;
+  transform: translateY(4px);
+}
+
+.b0tao:active {
+  box-shadow: 0 5px #999;
+  transform: translateY(4px);
+}
+
+.b0tao2:active {
+  box-shadow: 0 5px #999;
+  transform: translateY(4px);
+}
+
+.ingredientes {
+	text-align: center;
+	background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  padding: 10px;
+  position: relative;
+}
+
+
+.comofazer {
+	position: relative;
+	text-align: center;
+	background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  margin-top: 300px;
+  padding: 10px;
+  visibility: hidden;
+}
+
+.b0tao {
+	position: absolute;
+	display: flex;
+	width: 250px;
+	cursor: pointer;
+	outline: none;
+	border: 5px solid black;
+	border-radius: 15px;
+	padding: 2px;
+	background-color: white;
+	cursor: pointer;
+  	outline: none;
+  	color: white;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+  	visibility: hidden;
+}
+
+.b0tao2 {
+	position: absolute;
+	display: flex;
+	width: 250px;
+	cursor: pointer;
+	outline: none;
+	border: 5px solid black;
+	border-radius: 15px;
+	padding: 2px;
+	background-color: white;
+		cursor: pointer;
+  	outline: none;
+  	color: white;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+}
+
+.p1 {
+	display: flex;
+	position: absolute;
+	padding-top: 10px;
+	padding: 10px;
+	visibility: hidden;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: 20px;
+	margin-top: 80px;
+}
+
+.p1t {
+	display: flex;
+	padding-top: 0px;
+	padding: 10px;
+	position: absolute;
+	visibility: hidden;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: 430px;
+	margin-right: 400px;
+	padding-bottom: 0px;
+	margin-top: 80px;
+}
+
+
+.p2 {
+	display: flex;
+	position: absolute;
+	padding-top: 10px;
+	padding: 10px;
+	visibility: hidden;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: 30px;
+	margin-top: 80px;
+}
+
+.p3 {
+	display: flex;
+	position: absolute;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding: 10px;
+	visibility: hidden;
+	border: 2px solid black;
+	border-radius: 15px;
+	margin-left: 90px;
+	margin-top: 80px;
+}
+
+.receitaaa {
+	font-size: 22px;
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 550px;
+}
+
+footer {
+	margin-top: 130px;
+	text-align: center;
+	background-color: darkgreen;
+	padding-bottom: 10px;
+	border-bottom: 15px solid yellowgreen;
+	background-color: darkgreen;
+	border-top: 15px solid yellowgreen;
+	font-size: 70px;
+	color: yellowgreen;
+}
+
+.rodaper {
+	font-size: 18px;
+	position: relative;
+	margin-top: -50px;
+	margin-bottom: 70px;
+}
+
+
+
+
+
+
+
